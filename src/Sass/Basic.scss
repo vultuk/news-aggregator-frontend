@@ -1,0 +1,55 @@
+@import 'Sass/Typography';
+@import 'Sass/Colors';
+
+html {
+  font-size: 100%;
+} /*16px*/
+
+body {
+  background: $lightest;
+  font-family: $fontFamily-base;
+  font-weight: $fontWeight-base;
+  line-height: $lineHeight-base;
+  color: $darkest;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: $fontFamily-base;
+  font-weight: $fontWeight-base;
+  line-height: $lineHeight-headings;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: $fontSize-h1;
+}
+
+h2 {
+  font-size: $fontSize-h2;
+}
+
+h3 {
+  font-size: $fontSize-h3;
+}
+
+h4 {
+  font-size: $fontSize-h4;
+}
+
+h5 {
+  font-size: $fontSize-h5;
+}
+
+small,
+.text_small {
+  font-size: $fontSize-small;
+}

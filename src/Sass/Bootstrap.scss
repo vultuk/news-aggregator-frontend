@@ -1,0 +1,8 @@
+@import 'Sass/Colors';
+
+$theme-colors: (
+  'primary': $brandColorPrimary,
+  'secondary': $brandColorSecondary,
+);
+
+@import '~bootstrap/scss/bootstrap';
